@@ -1,4 +1,5 @@
 import React from "react";
+import Weather from "./Weather.js";
 import "./App.css";
 
 function App() {
@@ -6,6 +7,7 @@ function App() {
     <div className="App">
       <div className="container">
         <h1>El clima</h1>
+        <Weather />
         <footer>
           This project was created by{" "}
           <a href="https://osorio.no/" target="_blank">
